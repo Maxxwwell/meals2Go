@@ -20,7 +20,7 @@ export const RestaurantsScreen = () => (
     <SafeAreaView
         style={{
             flex: 1,
-            marginTop: isAndroid ? 25 : 5,
+            marginTop: isAndroid ? 25 : 2,
             backgroundColor: '#eeeeee'
         }}>
 
@@ -39,15 +39,3 @@ export const RestaurantsScreen = () => (
     </SafeAreaView>
 );
 
-const styles = StyleSheet.create({
-    searchDecoration: {
-        padding: 16,
-    },
-
-    listDecoration: {
-        flex: 1,
-
-        padding: 16,
-    }
-
-});
